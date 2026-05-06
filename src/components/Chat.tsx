@@ -96,7 +96,7 @@ export function Chat() {
           </div>
           <div>
             <h1 className="text-base font-semibold tracking-tight text-foreground">Pilot</h1>
-            <p className="text-xs text-muted-foreground">Your small-business assistant</p>
+            <p className="text-xs text-muted-foreground">YOUR SMALL- BUSINESS ASSISTANT</p>
           </div>
         </div>
       </header>
