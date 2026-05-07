@@ -92,8 +92,8 @@ export function Chat() {
     <div className="flex h-dvh flex-col bg-[var(--gradient-subtle)]">
       <header className="border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex max-w-3xl items-center gap-3 px-6 py-4">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--gradient-primary)] shadow-[var(--shadow-elegant)]">
-            <Sparkles className="h-5 w-5 text-primary-foreground" />
+          <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-[var(--gradient-primary)] shadow-[var(--shadow-elegant)]">
+            <img src={pilotAvatar} alt="Pilot avatar" width={40} height={40} className="h-10 w-10 object-cover" loading="lazy" />
           </div>
           <div>
             <h1 className="text-base font-semibold tracking-tight text-foreground">Pilot</h1>
