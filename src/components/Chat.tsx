@@ -106,8 +106,8 @@ export function Chat() {
         <div className="mx-auto max-w-3xl px-6 py-8">
           {empty ? (
             <div className="flex flex-col items-center justify-center pt-16 text-center">
-              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-[var(--gradient-primary)] shadow-[var(--shadow-elegant)]">
-                <Sparkles className="h-8 w-8 text-primary-foreground" />
+              <div className="mb-6 h-20 w-20 overflow-hidden rounded-2xl shadow-[var(--shadow-elegant)]">
+                <img src={pilotAvatar} alt="Pilot avatar" width={80} height={80} className="h-20 w-20 object-cover" />
               </div>
               <h2 className="text-3xl font-semibold tracking-tight text-foreground">How can I help your business today?</h2>
               <p className="mt-3 max-w-md text-muted-foreground">Emails, summaries, task plans, quick research — ask anything.</p>
