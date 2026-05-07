@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { Send, Mail, ListChecks, FileText, Search, Sparkles } from "lucide-react";
+import { Send, Mail, ListChecks, FileText, Search } from "lucide-react";
 import { toast } from "sonner";
+import pilotAvatar from "@/assets/pilot-avatar.png";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
